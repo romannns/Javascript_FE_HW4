@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form_names{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 180px;
+    max-width: 1100px;
+}
+
+.form_names input{
+    padding: 10px;
+}
+
+.form_names button{
+    padding: 0 10px;
+}
+
+#root{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    height: 80px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
